@@ -1,111 +1,76 @@
-# Tailwind Project
+# UF1 Project Tailwind CSS
 
-## Arxius i instruccions d'execució
+**Ernest Vilà Casas**  
+**2n DAW A**  
+**MP09 - Disseny d’Interfícies Web**
 
-El projecte té els següents fitxers:
+## Table of Contents
 
-- `src/index.html`: Aquest fitxer conté el codi HTML de la pàgina web.
-- `src/index.js`: Aquest fitxer conté el codi JavaScript que s'executa a la pàgina web.
-- `src/styles.css`: Aquest fitxer conté el codi CSS de la pàgina web, escrit amb Tailwind CSS.
-- `package.json`: Aquest fitxer és el fitxer de configuració de npm. Llista les dependències i scripts del projecte.
-- `postcss.config.js`: Aquest fitxer és utilitzat per Parcel per processar el codi CSS.
-- `README.ca.md`: Aquest fitxer conté la documentació del projecte.
+1. [Tools Used](#tools-used)
+2. [SiteMap & Wireframe Presentation](#sitemap--wireframe-presentation)
+3. [Explaining the Decisions](#explaining-the-decisions)
+4. [Links & Resources Used](#links--resources-used)
 
-### Per executar el projecte, segueix aquests passos:
+## Tools Used
 
-1. Clona el repositori a la teva màquina local.
-2. Executa `npm install` per instal·lar les dependències del projecte.
-3. Executa `npm run dev` per iniciar el servidor de desenvolupament.
-4. Obre el teu navegador i navega a `http://localhost:1234` per veure la pàgina web.
+### Tailwind
 
-Aquest projecte utilitza Tailwind CSS i Parcel com exemple d'ús d'eines modernes en el desenvolupament web.
+**What is Tailwind and how can it help us?**  
+Tailwind is a popular utility-first CSS framework that provides a set of pre-built classes to create efficient, responsive, and customizable user interfaces. It's often used in web development to streamline the process of styling and laying out elements on a webpage.
 
-## Descripció del Projecte
+### Parcel
 
-Aquest projecte té com a objectiu el desenvolupament d'un lloc web senzill amb estil i contingut lliure, utilitzant Tailwind CSS com a eina principal per a l'estil i Parcel per a la gestió de recursos. **El projecte és de temàtica lliure però ha de seguir una estructura específica.**
+**What is Parcel and how can it help us?**  
+Parcel is an open-source web application bundler, a tool used in web development to compile and package various web assets like HTML, CSS, JavaScript, and images into a format that's optimized for production. It's known for its simplicity, ease of use, and zero-config approach, making it popular among developers for building web applications.
 
-## Directrius
+### Figma
 
-### Part 1: Desenvolupament
+**What is Figma and how can it help us?**  
+Figma is a cloud-based design tool used for interface design, prototyping, and collaboration. It's primarily focused on allowing multiple users to collaborate in real-time on web and app interface design projects. Figma is popular among UI/UX designers and design teams for various reasons.
 
-#### Configuració Inicial
+## SiteMap & Wireframe Presentation
 
-Iniciar el projecte amb un arxiu HTML bàsic i utilitzar les següents eines:
+In this project, I decided to do a luxury car dealership. Here is the SiteMap for the website:
 
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Parcel](https://v2.parceljs.org/)
+![SiteMap Image](./imgs/Screenshot%20from%202023-11-05%2011-35-22.png)
 
-Tailwind i Parcel ja estan disponibles en aquest Boilerplate. Tailwind ja sabem què ens permet fer. Esbrina quin és l'objectiu de Parcel i explica-ho breument a la documentació.
+And here are the wireframes for the pages:
 
-#### SiteMap i Wireframe
+- Landing Page
 
-Comença llegint bé què et demana el projecte. Un cop hagis entès bé l'estructura del projecte, crea un SiteMap esquemàtic que expliqui com s'estructura el lloc web. Figma pot ajudar-te ja amb això: https://www.figma.com/templates/sitemap-generator/ (no és necessari que utilitzes aquesta plantilla, però pot ser útil).
+  ![Landing Page Wireframe](./imgs/Screenshot%20from%202023-11-05%2011-36-27.png "Landing Page")
 
-També hauràs de crear un Wireframe que mostri l'estructura de les pàgines del lloc web. Això sí que ho hauries de fer amb Figma. Tingues en compte que el lloc web ha de tenir almenys 4 pàgines diferents.
+- All Cars Page
 
-#### Disseny amb Tailwind CSS
+  ![All Cars Page Wireframe](./imgs/Screenshot%20from%202023-11-05%2011-37-25.png "All Cars Page")
 
-Utilitzar les principals característiques de Tailwind CSS, incloent classes per a:
+- Individual Car Page
 
-- Mides
-- Colors
-- Fonts
-- Marges i Paddings
-- Flexbox i/o Grid
-- Assegurar-te que el lloc sigui totalment **responsive**
+  ![Individaul Car Page Wireframe](./imgs/Screenshot%20from%202023-11-05%2011-38-20.png "Individual Car Page")
 
-#### Estructura i Contingut
+- About Us Page
 
-Crear un petit portal amb contingut lliure. La pàgina ha de contenir, com a mínim (suposem l'exmple d'un lloc web sobre gastronomia):
+  ![About Us Page Wireframe](./imgs/Screenshot%20from%202023-11-05%2011-38-35.png "About Us Page")
 
-- **Portada**: : Presenta el contingut, amb enllaços a la resta de pàgines.
-- **Categoria**: Aquesta pàgina ha d'oferir un llistat d'elements relacionats amb la temàtica general.
-  - Per exemple: llistat de plats tradicionals de la regió de Piemont o un llistat d'històries relacionades amb el menjar en l'antiga
-    Roma
-- **Detall**: En la categoria, ha d'haver-hi almenys una pàgina de detall que ha de seguir un format d'article i incloure informació relacionada amb l'element a descriure. És necessari que cada pàgina contingui un mínim de 3 paràgrafs de text, un llistat, i algun element multimèdia: imatge, vídeo, etc. Tingues en compte els elements d'HTML que s'usen per a estructurar la informació de la pàgina com a paràgrafs,llistes, cites o capçaleres.
+- Resources Page
 
-  - Un exemple de pàgines interiors podria ser una recepta de cuina o la història d'un plat concret. També pots ser més original ;)
+  ![Links Page Wireframe](./imgs/Screenshot%20from%202023-11-05%2011-40-31.png "Links Page")
 
-- **Presentació**: Una pàgina que expliqui detalladament el contingut del lloc web. Si la portada presenta breument el contingut i enllaça a les pàgines, aquesta pàgina ha 'explicar de manera més detalladament el contingut. La pàgina ha d'incloure elements multimèdia com a imatges o vídeos i almenys 3 paràgrafs de text.
-- **Enllaços**: Una pàgina amb documentació a les fonts de les quals s'ha tret el contingut i atribucions als drets copyleft quan sigui necessari. Feu atenció de no utilitzar imatges i continguts en general amb drets d'autor ja que no podreu publicar el lloc web.
+## Explaining the Decisions
 
-#### Navegació
+Here I will explain the decisions taken during the project. Firstly, I used basically 4 colors for the project. The main color is blue, but not a bright blue, used for the background, then there is a darker blue, used as a container for information, and also there is yellow and gray for the buttons. I’ve chosen those colors because they complement each other well and create a visually appealing contrast. The choice of using a main blue color for the background provides a calming and neutral base for the project. The darker blue used as a container for information likely serves to create a clear distinction between different sections or elements on the page, making the information stand out without being too overwhelming.
 
-- La portada ha d'enllaçar a la pàgina de categoria, de presentació i d'enllaços.
-- La pàgina de categoria ha d'enllaçar la pàgina de detall.
-- Les pàgines de detall han d'incloure enllaços a altres pàgines de detall de la mateixa categoria o a altres pàgines relacionades.
+The inclusion of yellow and gray for the buttons can serve different purposes. Yellow often signifies energy, positivity, or attention, making it a good choice for buttons that require action or draw attention. Gray, being a neutral color, complements the other colors while providing a sense of balance and sophistication to the design.
 
-#### Figma i Tailwind CSS
+Now I’m going to explain the position of the elements. The landing page I chose to have the text next to the image to use all the horizontal space of the screen, then on the cars site I used a grid so I could have all the cars in order no matter the size of the screen. And lastly on the About and the Links pages I used a vertical and centered design because I don’t think those pages need a very impressive design. And yes, all the pages on this project are responsive.
 
-Crea al menys un component (pot ser la capçalera o un botó... has de pensar en elements reutilitzables) amb Figma i tracta d'exporar-lo a TailwindCSS amb les eines que incorpora. Existeixen diversos plugins de Figma que et poden ajudar a resoldre aquesta tasca amb més o menys facilitat.
+## Links & Resources Used
 
-Durant el transcurs de la pràctica farem algunes proves. Mira d'explicar com ho has dut a terme en la documentació.
+To create this project, apart from the resources mentioned in the first part, I used Bing Image Creator to create all the images that you see on the project. Also, for some of the text, as I think the text was not an important part of the project and I needed a lot of it, I used ChatGPT to generate some.
 
-#### Publicació
+Here you can find my website:
 
-Desplegar el lloc web en un servidor públic i assegurar-se que siga accessible des d'internet. Recomanem Github Pages per a això o si vols investigar més, pots utilitzar [Netlify](https://www.netlify.com/) o [Vercel](https://vercel.com/).
-
-### Part 2: Documentació
-
-Documentar tot el procés de desenvolupament, incloent:
-
-- Explicació de les eine utilitzades i com ens ajuden a desenvolupar el nostre web (Tailwind CSS, Parcel, etc.).
-- Presentació del Wireframe i del SiteMap.
-- Explicació de les decisions preses en el disseny i desenvolupament del lloc web.
-- Enllaços i recursos utilitzats.
-
-### Criteris d'Avaluació
-
-#### :computer: **Desenvolupament** [70%]
-
-- [15%] Ús correcte de l'entorn de desenvolupament i les eines utilitzades.
-- [15%] Presentació del Wireframe i del SiteMap.
-- [25%] Ús dels components de Tailwind CSS i responsivitat
-- [10%] Estils i adequació a l'estructura de la pràctica
-- [5%] Publicació a internet
-
-#### Documentació [30%]
-
-- [10%] Documentació del procés de desenvolupament.
-- [10%] Justificació de les decisions preses.
-- [10%] Anàlisi dels resultats obtinguts.
+- Deployed directly from the repo in Netlify:
+  [Netlify Link](https://main--magnificent-rugelach-d49a6c.netlify.app/)
+- Or on my personal website using only the output.css file with the html:
+  [Personal Website Link](https://ernestvila.cat/project_mp09)
