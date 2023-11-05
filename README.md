@@ -66,7 +66,7 @@ Now I’m going to explain the position of the elements. The landing page I chos
 
 ## Links & Resources Used
 
-To create this project, apart from the resources mentioned in the first part, I used Bing Image Creator to create all the images that you see on the project. Also, for some of the text, as I think the text was not an important part of the project and I needed a lot of it, I used ChatGPT to generate some.
+To create this project, apart from the resources mentioned in the [first part](#tools-used), I used Bing Image Creator to create all the images that you see on the project. Also, for some of the text, as I think the text was not an important part of the project and I needed a lot of it, I used ChatGPT to generate some.
 
 Here you can find my website:
 
